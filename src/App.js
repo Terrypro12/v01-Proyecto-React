@@ -2,6 +2,11 @@ import logo from './logo.svg';
 import './App.css';
 import C01component from './Componentes/C01component';
 import C02contador from './Componentes/C02contador';
+import C03dobleestado from './Componentes/C03dobleestado';
+import C04variable from './Componentes/C04variable';
+import C05operadorTerr from './Componentes/C05operador';
+import C06matriz from './Componentes/C06matriz';
+import C07matrizOperaciones from './Componentes/C07matrizOperaciones';
 
 function App() {
   return (
@@ -9,12 +14,23 @@ function App() {
      <h1>Componente 1</h1>
      <C01component/>
 
-     <h2>Componente 2</h2>
+     <h1>Componente 2</h1>
      <C02contador/>
 
-     <h3>Componente 3</h3>
+     <h1>Componente 3</h1>
      <C03dobleestado/>
 
+     <h1>Componente 4</h1>
+     <C04variable xVariable= "Hoy es viernes"/> 
+
+     <h1>Componente 5</h1>
+     <C05operadorTerr/>
+
+     <h1>Componente 6</h1>
+     <C06matriz/>
+
+     <h1>Componente 7</h1>
+     <C07matrizOperaciones/>
     </div>
   );
 }
