@@ -20,9 +20,6 @@ function App() {
      <h1>Componente 2</h1>
      <C02contador/>
 
-     <h1>Componente 1</h1>
-     <C01component/>
-
      
     </div>
   );
